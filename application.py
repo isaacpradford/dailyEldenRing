@@ -4,9 +4,6 @@ import numpy as np
 import os
 from dotenv import load_dotenv
 
-
-import random
-from array import *
 # https://auth0.com/blog/how-to-make-a-twitter-bot-in-python-using-tweepy/
 
 load_dotenv()

@@ -1,0 +1,35 @@
+{
+    "characters": {
+        "Ranni":{
+            "quotes":[
+                "This way, Tarnished. May I have a word?",
+                "A pleasure to meet thee, Tarnished. I am the witch Renna.",
+                "I'd heard tell of a Tarnished hurtling about atop a spectral steed. Thou'rt possessed of the power, no? To call forth the spectral steed named Torrent." 
+            ]
+        },
+        "Melina":{
+            "quotes":
+                [
+                    "Greetings. Traveller from beyond the fog. I Am Melina. I offer you an accord.",
+                    "Have you heard of the finger maidens? They serve the Two Fingers, offering guidance, and aid, to the Tarnished. But you, I am afraid, are maidenless.",
+                    "Then it's settled. Summon me by grace to turn runes into strength. Ahh, another matter. I bequeath to you this ring. Use it to traverse great distances. It will summon a spectral steed named Torrent. Torrent has chosen you. Treat him with respect.",
+                    "This tiny golden aura is the grace of the Erdtree. This light once shone in the eyes of your Tarnished brethren. But now it is all that guides you. Or so I hear. The rays of grace, that guide you through your burden.",
+                    "Upon the cliff, in Castle Stormveil, is a shardbearer. A demigod who inherited a fragment of the shattered Elden Ring. If the rays of grace signal the castle, then the Elden Ring beckons you. As an ally by pact, I pray that you are fit to face the challenge presented by the Ring.",
+                    "Shall I turn your runes to strength? Let my hand rest upon you, for but a moment.",
+                    "Share them with me, your thoughts, your ambitions, the principles you would follow.",
+                    "Me, I'm searching for my purpose given to me by my mother inside the Erdtree long ago, for the reason that I yet live, burned and bodyless.",
+                    "There is something for which I must apologize. I've acted the finger maiden yet I can offer no guidance, I am no maiden. My purpose was long ago lost...",
+                    "Spoken echoes of Queen Marika linger here, as well. Shall I share them with you?",
+                    "Very well. In Marika's own words. My Lord, and thy warriors. I divest each of thee of thy grace. With thine eyes dimmed, ye will be driven from the Lands Between. Ye will wage war in a land afar, where ye will live, and die.",
+                    "In Marika's own words. Then, after thy death, I will give back what I once claimed. Return to the Lands Between, wage war, and brandish the Elden Ring. Grow strong in the face of death. Warriors of my lord. Lord Godfrey.",
+                    "The Erdtree governs all. The choice is thine. Become one with the Order. Or divest thyself of it. To wallow at the fringes; a powerless upstart.",
+                    "I declare mine intent, to search the depths of the Golden Order. Through understanding of the proper way, our faith, our grace, is increased. Those blissful early days of blind belief are long past. My comrades; why must ye falter?",
+                    "Forgive me. I've been...testing you. To see whether or not grace truly does guide you. And...whether you are fit to face the challenge that entails. It seems my worries were unfounded.",
+                    "Torrent had your measure from the very start. Whereas I merely pretended.",
+                    "There is but one other thing I can do to offer you guidance. I can take you to the Roundtable Hold... Gathering place of Tarnished champions, guided by Grace...",
+                    "Very well. Let my hand rest upon you, for but a moment."
+                ]
+        }
+    }
+}
+

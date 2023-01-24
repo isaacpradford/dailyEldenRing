@@ -37,7 +37,7 @@ def main():
     tweetQuote(client, quote)
     
 def getQuote():
-    f = open('quotes.json')
+    f = open('./quotes.json')
     data = json.load(f)
     
     randCharacter = np.random.choice(characterNames)
@@ -53,8 +53,6 @@ def getQuote():
 def tweetQuote(client, quote):
     client.create_tweet(text = f"{quote}")
     
-    
-
 main()
 
 

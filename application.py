@@ -37,7 +37,7 @@ def main():
     tweetQuote(client, quote)
     
 def getQuote():
-    f = open('dailyEldenRing/quotes.json')
+    f = open('quotes.json')
     data = json.load(f)
     
     randCharacter = np.random.choice(characterNames)

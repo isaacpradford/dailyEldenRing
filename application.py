@@ -1,12 +1,12 @@
 import tweepy
 import json
-import random
 import numpy as np
-from array import *
 import os
 from dotenv import load_dotenv
-import logging
 
+
+import random
+from array import *
 # https://auth0.com/blog/how-to-make-a-twitter-bot-in-python-using-tweepy/
 
 load_dotenv()
@@ -18,18 +18,19 @@ BEARER_TOKEN = os.getenv('BEARER_TOKEN')
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
 
+client = tweepy.Client(BEARER_TOKEN, API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+auth = tweepy.OAuth1UserHandler(API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+api = tweepy.API(auth)
+  
 characterNames = ["Ranni", "Melina"]
 quotes = []
 
 usedQuotes = []
 
-logger = logging.getLogger()
-logging.basicConfig(level=logging.INFO)
-logger.setLevel(logging.INFO)
+# logger = logging.getLogger()
+# logging.basicConfig(level=logging.INFO)
+# logger.setLevel(logging.INFO)
 
-client = tweepy.Client(BEARER_TOKEN, API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-auth = tweepy.OAuth1UserHandler(API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-api = tweepy.API(auth)
     
 
 def main():

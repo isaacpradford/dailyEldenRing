@@ -19,7 +19,7 @@ client = tweepy.Client(BEARER_TOKEN, API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCE
 auth = tweepy.OAuth1UserHandler(API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
   
-characterNames = ["Ranni", "Melina"]
+characterNames = ["Ranni", "Melina","IronFistAlexander"]
 quotes = []
 
 usedQuotes = []

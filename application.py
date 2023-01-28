@@ -1,11 +1,12 @@
+# Importing packages
 import tweepy
 import json
 import numpy as np
 import os
 from dotenv import load_dotenv
 
-# https://auth0.com/blog/how-to-make-a-twitter-bot-in-python-using-tweepy/
 
+# Keys and tokens necessary to gain access to tweet remotely. All of the environment variables are stored securely elsewhere and accessed through the load_dotenv() file.
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
 API_KEY_SECRET = os.getenv('API_KEY_SECRET')
@@ -19,16 +20,21 @@ client = tweepy.Client(BEARER_TOKEN, API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCE
 auth = tweepy.OAuth1UserHandler(API_KEY, API_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
   
-characterNames = ["Ranni", "Melina","IronFistAlexander"]
+  
+ 
+ 
+# Numpy is incapable of doing the np.random.choice function for 2D arrays,
+# so to get around that, the JSON is loaded in, the program picks a random name from characterNames, 
+# copies all of those quotes from the 2D array into the quotes array, 
+# and then the quote of the day (qotd) is selected from the new array of quotes.
+  
+# Array of character names inside JSON
+characterNames = ["Ranni", "Melina","IronFistAlexander", "AeonianSpirit","AlbinauricVillageSpirit","AeonianSwampSpirit","AshenSpirit",
+                  "BlackguardBigBoggart", "Blaidd"]
+
+# Array that the quotes for the character of the day is put into
 quotes = []
 
-usedQuotes = []
-
-# logger = logging.getLogger()
-# logging.basicConfig(level=logging.INFO)
-# logger.setLevel(logging.INFO)
-
-    
 
 def main():
     quote = getQuote()
@@ -45,12 +51,12 @@ def getQuote():
         
     qotd = np.random.choice(quotes)
     
-    
     return qotd
     
 def tweetQuote(client, quote):
     client.create_tweet(text = f"{quote}")
     
+
 main()
 
 

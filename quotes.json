@@ -97,7 +97,59 @@
                 "The scarlet bloom flowers once more.You will witness true horror. Now, rot!",
                 "Your strength, extraordinary... The mark...of a true Lord..."
             ]
+        },
+        "AeonianSpirit":{
+            "quotes":[
+                "Sublime, I tell you. The very first flower of Aeonia bloomed on this very spot. Malenia, may you blossom into a goddess."
+            ]
+        },
+        "AlbinauricVillageSpirit":{
+            "quotes":[
+                "This village is done for. Please, even if it's just you, old Albus, hide well and still your breath."
+            ]
+        },
+        "AeonianSwampSpirit":{
+            "quotes":[
+                "Let me see it, if only one last time. Your splendid blade, dancing amongst the scarlet rot."
+            ]
+        },
+        "AshenSpirit":{
+            "quotes":[
+                "Behold. The Erdtree yet stands. Tall and unwavering, mindless of the scorch of the flame of ruin. Hahah, hahah... Then, we are yet Golden Ones."
+            ]
+        },
+        "BlackguardBigBoggart":{
+            "quotes":[
+                "What are you lookin' at? You trying to start something, mate?",
+                "Oh piss off, what is it now? Oh, I see. You want some of me prawn? Freshly cooked it is. Alright then. It's yours, if you can meet me price. I could be persuaded to sell you some other bits too, if you've got the runes.",
+                "Marika's tits, you must be 'ungry.",
+                "Alright, mate. Want some more prawn, do ya?",
+                "What are you lookin' at? Oh... you again, is it. Perfect bloody timing, actually. I got crab, cooked up fresh.",
+                "Alright, mate. Want some more crab, do ya?",
+                "What the hell is wrong with you. You trying to start something? Piss off. Before I crack you in 'alf.",
+                "You're Tarnished too, ain'tcha? Can you see it then? The guidance of grace, I mean. I can't see it at all no more. Makes no bloody sense anyway, why some no-name shithead like me should get called to the Lands Between.",
+                "Cruel bloody joke, you ask me. Maybe something went tits up with it. Maybe... it's been broke for a good long time. The Erdtree, I'm sayin'",
+                "You 'eard of the Dung Eater? E's a madman, 'as it out for everyone. Curses 'em. Goes 'round in this rank armour, an' all. You see 'im though, stay well away. I was in the same gaol as him, once, so I know first 'and. E's a god-forsaken monster. Not just some petty thug like me.",
+                "Heh... serves me right. Fitting bloody end, for a jumped up little **** with big ideas...",
+                "Help me out, would ya, mate... I don't wanna get cursed. Just let me die... I don't wanna live like this... not anymore... So, please...",
+                "What's your blinkin' problem! You don't mess with Big Boggart, mate.",
+                "Never met someone with a taste for prawns I couldn't trust. We'd make good mates, I reckon. I'll be seeing ya."
+            ]
+        },
+        "Blaidd":{
+            "quotes":[
+                "The name's Blaidd. I'm looking for a man who goes by 'Darriwil.' He fled somewhere nearby. Or so I've heard. Come tell me if you find him before I do. I can offer you ample reward.",
+                "Oh? Fine. Time to douse your little flame.",
+                "You're... you're strong of arm. But ask yourself... What harm can be done... to a shadow?",
+                "Ahh, long time, friend. Blaidd, if you’ve forgotten. Glad to have you in the service of mistress Ranni.",
+                "You’re coming too, right? To Radahn’s festivities… I’ll meet you at Redmane Castle in Caelid. The way ahead is pleasingly simple. We fight, sword and fang.",
+                "There’s a festival being held at the castle on the southern edge of the Caelid Wilds, east of Limgrave. It’s a festival of combat. And I heard… that you can fight Radahn himself. He who was once called the strongest of all the demigods…",
+                "Let’s meet where the falling star bit the earth. We’ll take up our swords once more. For mistress Ranni.",
+                "Let’s meet where the falling star bit the earth. And we’ll go into battle again, side by side. My only purpose is to fight for Ranni’s fate, sword and fang. The curtain’s rising… on the final act.",
+                "No. I’m part of her very being! I could never betray her! No matter what might happen... Ranni... She needs me..."
+            ]
         }
+
     }
 }
 
